@@ -4,8 +4,7 @@
 ## Write a pair of functions that cache the inverse of a matrix
 
 
-## Return a list of functions that will allow
-## caching of the matrix inverse 
+## Return a list of functions that will allow caching of the matrix inverse 
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -32,10 +31,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Return a matrix that is the inverse of 'x'. 
-## This function will check if an inverse has been cached.
-## If not, then it will compute the inverse, anc cache it
-## for future use.
+## Return a matrix that is the inverse of 'x'. This function will check if 
+## an inverse has been cached. If not, then it will compute the inverse, and 
+## cache it for future use.
 
 cacheSolve <- function(x, ...) {
         
